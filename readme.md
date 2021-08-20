@@ -45,14 +45,15 @@ go get google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
 ## Example
 
 ```
+cd helloword
+
 # after changes in helloworld.proto
 protoc --go_out=. --go_opt=paths=source_relative \
     --go-grpc_out=. --go-grpc_opt=paths=source_relative \
     helloworld/helloworld.proto
 
 
+go run greeter_server/main.go
 
-go run helloworld/greeter_server/main.go
-
-go run helloworld/greeter_client/main.go
+go run greeter_client/main.go
 ```

@@ -14,6 +14,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 ### 2. Protocol Compiler/protoc/ProtoBuf
 
 https://github.com/protocolbuffers/protobuf/releases
+https://grpc.io/docs/protoc-installation/
 
 ```
 	curl -OL https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-osx-x86_64.zip \
@@ -22,15 +23,11 @@ https://github.com/protocolbuffers/protobuf/releases
 	&& rm -f protoc-3.17.3-osx-x86_64.zip
 ```
 
-### 3. Protobuf/protoc Runtime 
+### 3. Protobuf/protoc Runtime/Compiler for go
 
-> Protobuf support go programming language https://github.com/protocolbuffers/protobuf-go
+> Protobuf support go programming language https://github.com/protocolbuffers/protobuf-go in package google.golang.org/protobuf
 
-```
-
-```
-
-### 4. ProtoBuf/protoc compiler plugins for code generator
+ProtoBuf/protoc compiler plugins for code generator
 
 > Protocol buffer compiler requires a plugin to generate code
  

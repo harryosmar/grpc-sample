@@ -23,6 +23,11 @@ https://grpc.io/docs/protoc-installation/
 	&& rm -f protoc-3.17.3-osx-x86_64.zip
 ```
 
+verify `protoc` installation
+```
+protoc --version
+```
+
 ### 3. Protobuf/protoc Runtime/Compiler for go
 
 > Protobuf support go programming language https://github.com/protocolbuffers/protobuf-go in package google.golang.org/protobuf

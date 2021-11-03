@@ -32,17 +32,17 @@ protoc --version
 
 > Protobuf support go programming language https://github.com/protocolbuffers/protobuf-go in package google.golang.org/protobuf
 
-ProtoBuf/protoc compiler plugins for code generator
+ProtoBuf/protoc `compiler` plugins for code generator
 
-> Protocol buffer compiler requires a plugin to generate code
+> Protocol buffer `compiler` requires a plugin to generate code
  
 https://grpc.io/docs/languages/go/quickstart/
 
 ```
-# The protocol buffer compiler requires a plugin to generate Go code
+# The protocol buffer `compiler` requires a plugin to generate Go code
 go get google.golang.org/protobuf/cmd/protoc-gen-go@v1.27
 
-# The protocol buffer compiler requires a plugin to generate grpc Go code
+# The protocol buffer `compiler` requires a plugin to generate grpc Go code
 go get google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
 ```
 

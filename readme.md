@@ -11,7 +11,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 ```
 
 
-### 2. Protocol Compiler/protoc/ProtoBuf
+### 2. Protocol Compiler= ProtoBuf Compiler = protoc/
 
 https://github.com/protocolbuffers/protobuf/releases
 https://grpc.io/docs/protoc-installation/

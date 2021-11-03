@@ -28,7 +28,7 @@ verify `protoc` installation
 protoc --version
 ```
 
-### 3. Protobuf/protoc Runtime/Compiler for go
+### 3. Code Generator / protoc-gen-
 
 > Protobuf support go programming language https://github.com/protocolbuffers/protobuf-go in package google.golang.org/protobuf
 

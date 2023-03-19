@@ -18,8 +18,8 @@ https://grpc.io/docs/protoc-installation/
 
 ```
 	curl -OL https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-osx-x86_64.zip \
-	&& unzip -o protoc-3.17.3-osx-x86_64.zip -d /usr/local bin/protoc \
-	&& unzip -o protoc-3.17.3-osx-x86_64.zip -d /usr/local 'include/*' \
+	&& unzip -o protoc-3.17.3-osx-x86_64.zip -d /usr/local/bin/protoc \
+	&& unzip -o protoc-3.17.3-osx-x86_64.zip -d /usr/local/include/*' \
 	&& rm -f protoc-3.17.3-osx-x86_64.zip
 ```
 
